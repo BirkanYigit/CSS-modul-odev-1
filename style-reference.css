@@ -1,0 +1,90 @@
+/***** Nav Styling *****/
+
+.nav-area {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.logo-container {
+    height: inherit;
+    width: 40%;
+    display: flex;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    color: #470D21;
+    display: inline;
+    flex-basis: 50%;
+    margin-left: 10%;
+    margin-right: 5%;
+    align-self: center;
+}
+
+.dot-line {
+    border-left: 20px dotted #470D21;
+    display: inline;
+    height: 40px;
+    align-self: center;
+}
+
+.nav-menu {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    flex-basis: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a:link {
+    color: #D67D3E;;
+  }
+
+a:visited {
+    color: #D67D3E;
+}
+
+a:hover {
+    color: #D67D3E;;
+}
+
+a:active {
+    color: #D67D3E;
+}
+
+/***** Body Styling *****/
+
+.body {
+    color: #F9E4D4;
+}
+
+.body-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-text {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
